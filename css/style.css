@@ -410,6 +410,75 @@ button:focus,
         }
     }
 
+/*-------------------
+ * Jumbotron2
+ *-------------------*/
+
+.jumbotron2 {
+    background            : url("../img/Edison-printer-main.jpg");
+    /*background            : #888888 !important;*/
+    background-size       : cover;
+    padding               : 0;
+    margin                : 0;
+    height                : 100vh;
+    min-height            : 700px;
+    vertical-align        : middle;
+    position              : relative;
+    background-attachment : fixed;
+    background-repeat     : no-repeat;
+    background-position   : center center;
+    overflow              : hidden;
+    }
+
+.jumbotron2 .content {
+    color             : #333333;
+    position          : absolute;
+    top               : 50%;
+    left              : 0;
+    right             : 0;
+    height            : 30%;
+    width             : 100%;
+    margin            : 0 auto;
+    padding           : 0 10%;
+    transform         : translateY(-50%);
+    -webkit-transform : translateY(-50%);
+    -moz-transform    : translateY(-50%);
+    }
+
+.jumbotron2 .content h1 {
+    color       : #8c1515;
+    font-weight : bold;
+    }
+
+.jumbotron2 .content p.lead {
+    font-size   : 24px;
+    line-height : 1.5em;
+    color       : rgba(255, 255, 255, .7);
+    }
+
+.jumbotron2 .content .event-date {
+    font-size     : 24px;
+    margin-bottom : 40px;
+    }
+
+.jumbotron2 .btn {
+    margin-top : 40px;
+    }
+
+@media (max-width : 600px) {
+    .jumbotron2 .content {
+        min-height : auto;
+        }
+
+    .jumbotron2 .content h1 {
+        font-size : 20px;
+        }
+
+    .jumbotron2 .content p.lead {
+        font-size : 15px;
+        }
+    }
+
 /*---------------------------
  * Section Wrapper
  *---------------------------*/
