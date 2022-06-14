@@ -410,6 +410,13 @@ button:focus,
         font-size : 15px;
         }
     }
+    
+@media only screen
+and (max-width: 480px) {
+#header {
+background-position: right center !important;
+}
+}
 
 /*-------------------
  * Jumbotron2
