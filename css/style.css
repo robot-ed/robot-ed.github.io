@@ -411,10 +411,10 @@ button:focus,
         }
     }
     
-@media only screen
-and (max-width: 480px) {
-#header {
-background-position: right center !important;
+@media only screen 
+  and (max-width: 480px) {
+    .jumbotron .content {
+    background-position: right center;
 }
 }
 
